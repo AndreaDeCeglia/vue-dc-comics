@@ -26,7 +26,7 @@ export default {
     // height: 50%;
    
         #content-header{
-            padding: 2% 0;
+            padding: 3% 0;
             width: 80%;
             margin: auto;
             display: flex;
