@@ -64,6 +64,7 @@ export default {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 1% 0;
 }
 
 #logo-container{
@@ -92,6 +93,7 @@ ul{
             justify-content: center;
             align-items: center;
                 a{
+                    height: 100%;
                     text-decoration: none;
                     color: black;
                 };
