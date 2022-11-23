@@ -1,11 +1,13 @@
 <template>
     <footer>
         <FooterUpper />
+        <FooterDowner />
     </footer>
 </template>
 
 <script>
 import FooterUpper from './FooterUpper.vue'
+import FooterDowner from './FooterDowner.vue'
 
 export default {
   name: 'FooterComp',
@@ -14,6 +16,7 @@ export default {
   },
   components: {
     FooterUpper,
+    FooterDowner
   }
 }
 </script>
