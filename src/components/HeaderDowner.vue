@@ -1,14 +1,17 @@
 <template>
   <div id="header-downer">
-    <div id="content-header">
-        <h6>
-            Content goes here 
-        </h6>
+    
+    <div id="jumbotron"></div>
+    
+    <div id="cards-container">
+      <CardComp />
     </div>
   </div>
 </template>
 
 <script>
+import CardComp from './CardComp.vue'
+
 export default {
   name: 'HeaderDowner',
   props: {
@@ -23,20 +26,15 @@ export default {
 #header-downer{
     background-color: #1C1C1C;
     color: white;
-    // height: 50%;
-   
-        #content-header{
-            padding: 3% 0;
-            width: 80%;
-            margin: auto;
-            display: flex;
-            justify-content: flex-start;
-            align-items: center;
 
-                h6{
-                    margin-left: 2%;
-                }
-        }
+      #jumbotron{
+        height: 40vh;
+        background-image: url('../assets/img/jumbotron.jpg');
+        background-size: cover;
+        object-fit: cover;
+        background-position: top;
+      }
+    
 }
 
 </style>
