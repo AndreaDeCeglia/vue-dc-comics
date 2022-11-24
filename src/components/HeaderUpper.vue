@@ -57,7 +57,7 @@ export default {
 <style scoped lang="scss">
 
 #container-upper{
-    height: 50%;
+    // height: 50%;
     font-size: .7rem;
     width: 80%;
     margin: auto;

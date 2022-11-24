@@ -46,7 +46,7 @@ export default {
 
 #footer-downer{
     background-color: #303030;
-    padding: 5% 0;
+    padding: 1% 0;
 
     #footer-container{
         width: 80%;

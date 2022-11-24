@@ -39,7 +39,10 @@ export default {
 
 #main-container{
     background-color: #0282F9;
+    height: 15vh;
     padding: 1% 0;
+    display: flex;
+    align-items: center;
 
         ul{
             width: 78%;
@@ -52,7 +55,7 @@ export default {
                 li{
                     width: 20%;
                     display: flex;
-                    justify-content: space-around;
+                    justify-content: center;
                     align-items: center;
                     img{
                         width: 20%;
@@ -60,6 +63,7 @@ export default {
                     a{
                         text-decoration: none;
                         color: white;
+                        margin-left: 3%;
                     }
                     
                 }

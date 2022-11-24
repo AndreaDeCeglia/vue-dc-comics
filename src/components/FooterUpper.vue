@@ -182,30 +182,36 @@ export default {
 <style scoped lang="scss">
 
 #footer-upper{
-  // height: 100px;
   background-image: url('./../assets/img/footer-bg.jpg');
   object-fit: cover;
-  padding: 1% 0;
 
   #footer-container{
-    height: 100%;
     width: 80%;
     margin: auto;
+    position: relative;
     display: flex;
     justify-content: space-between;
     
       #footer-listes{
-        padding: 1%;
+        padding: 3% 0;
         display: flex;
         justify-content: space-between;
+        text-align: left;
+
+          div{
+            margin: 0 10%;
+          }
       };
 
-      #footer-logo{
-        
-        img{
-          width: 80%;
+        #footer-logo{
+          background-image: url('./../assets/img/dc-logo-bg.png');
+          background-repeat: no-repeat;
+          background-size: cover;
+          background-position: center;
+          width: 50%;
+          
         }
-      }
+     
   }
 }
 
